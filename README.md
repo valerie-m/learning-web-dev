@@ -16,3 +16,4 @@ I learned:
 Next Steps:
 - Deploy my own website
 - Connnect HTML to back end server (using only code - no plugins/3rd party services like GetForm)
+https://www.c-sharpcorner.com/UploadFile/52bd60/create-an-html-form-and-insert-data-into-database162/
