@@ -3,13 +3,13 @@ This repository includes snippets of code to show my progress in learning web de
 
 I will be keeping track of what I learn as I advance my web development skills. These code snippets are created for eyehopecanada.com are a way for me to practice and develop my skills so that later I can create a complete website.
 
-##Custom Loading Page
+## Custom Loading Page
 I learned:
 - How to create an overlay
 - How to use CSS, JS, and HTML together
 - How to create animated graphics
 
-##Contact Form (Front End and Back End)
+## Contact Form (Front End and Back End)
 I learned:
 - How to use HTML to create a form
 
