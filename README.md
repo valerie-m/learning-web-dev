@@ -14,6 +14,6 @@ I learned:
 - How to use HTML to create a form
 
 Next Steps:
-- Deploy my own website
+- Understand basic concepts (how the web works, server-side website programming, sending form data)
 - Connnect HTML to back end server (using only code - no plugins/3rd party services like GetForm)
 https://www.c-sharpcorner.com/UploadFile/52bd60/create-an-html-form-and-insert-data-into-database162/
