@@ -1,7 +1,7 @@
 # learning-web-dev
-This repository includes snippets of code to show my progress in learning web development. 
+This repository includes snippets of code and markdown files to track what I learn about web development. 
 
-I will be keeping track of what I learn as I advance my web development skills. These code snippets are created for www.eyehopecanada.com are a way for me to practice and develop my skills so that later I can create a complete website.
+I will be keeping track of what I learn as I advance my web development skills. Most of these code snippets are created for www.eyehopecanada.com as a way for me to practice and develop my skills so that later I can deploy my own website from start to finish.
 
 ## Custom Loading Page
 I learned:
