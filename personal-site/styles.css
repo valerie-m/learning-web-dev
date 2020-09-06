@@ -1,0 +1,273 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #3e978b;
+}
+
+hr {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffcabd;
+  width: 15%;
+  margin-top: 60px;
+  margin-bottom: 60px;*/
+}
+
+/***************** Top Container ***********************/
+
+.menu {
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 5%;
+  padding-top: 7px;
+  margin-left: 30px;
+}
+
+.first-icons {
+  border-radius: 100%;
+  border: 1px solid #46dbd9;
+  width: 4%;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+
+.about-me-icon {
+  position: absolute;
+  right: 30%;
+}
+
+.experience-icon {
+  position: absolute;
+  right: 23%;
+}
+
+.projects-icon {
+  position: absolute;
+  right: 16%;
+}
+
+.blog-icon {
+  position: absolute;
+  right: 8.75%;
+}
+
+.contact-me-icon {
+  position: absolute;
+  right: 2%;
+  border-radius: 100%;
+  border: 1px solid #46dbd9;
+  width: 4%;
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #3e978b;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  z-index: 1000;
+  top: 305px;
+  left: 120px;
+  font-size: 6vw;
+  padding-right: 30px;
+}
+
+.subtitle {
+  position: absolute;
+  z-index: 1000;
+  top: 420px;
+  left: 120px;
+  font-size: 2vw;
+  padding-right: 30px;
+}
+
+#name {
+  color: #3e978b;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#period {
+  left: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.parallax{
+  background-image: url(../images/toronto-skyline.jpeg);
+  min-height: 660px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.layer {
+  background-color: rgba(241, 249, 249, 0.75);
+  min-height: 660px;
+  width: 100%;
+}
+
+.typed-text {
+	color: #3e978b;
+}
+
+.cursor {
+	display: inline-block;
+	width: 3px;
+	margin-left: 0.1rem;
+	animation: blink 1s infinite;
+}
+
+.cursortyping {
+	animation: blink 100s infinite;
+}
+
+@keyframes blink {
+	0% { background-color: black; }
+	49% { background-color: black; }
+	50% { background-color: transparent; }
+	99% { background-color: transparent; }
+	100% { background-color: black; }
+}
+
+/***************** Middle Container ***********************/
+
+.middle-container {
+  text-align: center;
+  background-image: url(../images/experience-background.png);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position:  top 140px left 0;
+}
+
+.headers {
+  font-size: 325%;
+  margin-top: 150px;
+  margin-bottom: 75px;
+  color: #8fbdb2;
+}
+
+.profile-picture {
+  width: 15%;
+  display: block;
+  margin: 0px auto 60px auto;
+}
+
+.intro {
+  width: 38%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 3em;
+  row-gap: 3em;
+  grid-auto-rows: minmax(100px, auto);
+  background-image: url(../images/projects-background.png);
+  background-size: 155%;
+  background-position:  top 30px left 0;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.grid-item {
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15), 0 7px 7px rgba(0, 0, 0, 0.25);
+  padding: 35px 30px 20px 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.grid-text {
+  font-size: 1.3vw;
+}
+
+.hide {
+  line-height: 1.8vw;
+  font-size: 1.1vw;
+  width: 75%;
+  padding: 40px 30px 38px 30px;
+  margin: auto;
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: all 400ms ease-out;
+}
+
+.wrapper .content:hover {
+  background-color: #8fbdb2;
+  opacity: 1;
+}
+
+.wrapper .content .grid-text-1 {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.wrapper .content .grid-text-2 {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.wrapper .content .grid-text-3 {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.wrapper .content .grid-text-4 {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+table {
+  margin: auto;
+}
