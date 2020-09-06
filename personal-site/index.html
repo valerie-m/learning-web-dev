@@ -2,101 +2,150 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="images/favicon.png">
     <title>Vanessa Mac</title>
-  </head>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
   <body>
-    <table cellpadding="20" cellspacing=0>
-      <tr>
-        <td><img src="images/profile-picture.png" alt="Vanessa Mac" width="190"</td>
-        <td><h1>Vanessa Mac</h1>
-        <p><em>SHAD Waterloo 2019</em> | <em>iBest Research Student</em> | <em>Founder of <a href="http://eyehopecanada.com/">Eye Hope Canada</a></em></p>
-        <p>I am passionate about exploring the intersection between engineering and health care. I ❤️ stretching my 🧠 through writing, music, and programming!</p></td>
-      </tr>
-    </table>
+    <! -- Menu Icons -->
+    <div class="menu">
+      <a name="home"><img class="logo" src="images/favicon.png" alt=""></a>
+      <a href="#about-me">
+        <img class="first-icons about-me-icon" src="images/about-me-icon.png" alt="">
+      </a>
+      <a href="#experience">
+        <img class="first-icons experience-icon" src="images/experience-icon.png" alt="">
+      </a>
+      <a href="#projects">
+        <img class="first-icons projects-icon" src="images/projects-icon.png" alt="">
+      </a>
+      <a href="#blog">
+        <img class="first-icons blog-icon" src="images/blog-icon.png" alt="">
+      </a>
+      <a href="#contact-me">
+        <img class="contact-me-icon" src="images/contact-me-icon.png" alt="">
+      </a>
+    </div>
 
-    <hr>
+    <! -- Front Page -->
+    <h1 class="title">👋🏼  I'm
+      <span id="name">Vanessa</span>
+      <span id="period">.</span>
+    </h1>
 
-    <h2>About Me</h2>
-    <ul>
-      <li>✨ <a href="https://www.notion.so/My-Programming-Tech-Everything-Journey-586b02e822504be9bbff1c0aa338b052">My Programming/Tech/Everything Journey</a></li>
-    </ul>
+    <h2 class="subtitle">I'm passionate about creating <u>meaningful</u> <span class="typed-text"></span><span class="cursor cursortyping">&nbsp</span></h2>
 
-    <hr>
+    <div class="parallax">
+      <div class="layer">
+      </div>
+    </div>
 
-    <h2>Courses</h2>
-    <table cellpadding="10">
-      <tr valign=top>
-        <td>
-          🤖 <a href="https://coursera.org/share/cca5b5e5984f114ca8dbd4d5b27ed951">Introduction to Programming with MATLAB</a> <br>
-          Coursera <br>
-          <strong>Completed </strong>Aug 2020 <br>
-          No Expiration Date
-        </td>
-        <td>
-          💻 <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2020 Web Development Bootcamp</a> <br>
-          Udemy <br>
-          <strong>IN PROGRESS</strong>
-        </td>
-        <td>
-          👩‍💻 <a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> <br>
-          Stanford University | Coursera <br>
-          <strong>AUDIT IN PROGRESS</strong>
-        </td>
-      </tr>
-    </table>
+    <div class="middle-container">
+      <! -- Add back to top button-->
 
-    <hr>
+      <! -- About Me + Skills-->
 
-    <h2>Experience</h2>
-    <table cellpadding=10>
-      <tr valign=top align=center>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-      <tr valign=top>
-        <td>July 2020-Present</td>
-        <td>Writer for EDifyTalks</td>
-      </tr>
-      <tr valign=top>
-        <td>Aug 2019-Present</td>
-        <td>iBest Student at the Maternal-Fetal Imaging (MFI) Laboratory</td>
-      </tr>
-      <tr valign=top>
-        <td>Oct 2018-Present</td>
-        <td>Founder of Eye Hope Canada</td>
-      </tr>
-      <tr valign=top>
-        <td>July 2019</td>
-        <td>SHAD Waterloo Fellow</td>
-      </tr>
-      <tr valign=top>
-        <td>Sept 2017</td>
-        <td>Senior Piano Accompanist at Bur Oak Music</td>
-      </tr>
-    </table>
+      <div class="profile">
+        <a name="about-me"><h1 class="headers">About Me</h1></a>
+        <img class = "profile-picture" src="images/profile-picture.png" alt="">
 
-    <hr>
+        <p class="intro">I am passionate about exploring the intersection between engineering and health care. I ❤️ stretching my 🧠 through writing, music, and programming!</p></td>
+      </div>
 
-    <h2>Technical Skills</h2>
-    <table cellpadding=10>
-      <tr valign=top>
-        <td>Amira</td>
-        <td>⭐️⭐️⭐️⭐️⭐️</td>
-      </tr>
-      <tr valign=top>
-        <td>Java</td>
-        <td>⭐️⭐️⭐️</td>
-      </tr>
-      <tr valign=top>
-        <td>Web Development</td>
-        <td>⭐️⭐️</td>
-      </tr>
-      <tr valign=top>
-        <td>Machine Learning (Python)</td>
-        <td>⭐️⭐️</td>
-      </tr>
-    </table>
+      <! -- Experience -->
+        <a name="experience"><h1 name="experience" class="headers">Experience</h1></a>
+        <table cellpadding=20>
+          <tr>
+            <td>
+              <p><em>July 2020-Present</em></p>
+              <p>🖋 Writer for <a href="https://campsite.bio/edifytalks">EDify Talks</a></p>
+              <hr>
+
+              <p><em>Aug 2019-Present</em></p>
+              <p>👩‍🔬 iBest Student at the <a href="https://www.ryerson.ca/dsussman/">Maternal-Fetal Imaging Lab</a></p>
+              <hr>
+
+              <p><em>July 2019</em></p>
+              <p>❤️ SHAD Waterloo Fellow</p>
+            </td>
+            <td>
+
+            </td>
+            <td>
+              <p><em>Oct 2018-Present</em></p>
+              <p>👁 Founder of <a href="www.eyehopecanada.com">Eye Hope Canada</a></p>
+              <hr>
+
+              <p><em>Aug 2018-Present</em></p>
+              <p>🧕 👩🏻‍⚕️ Mentee/Alumna <a href="https://www.girlsementorship.com/">Girls E-Mentorship</a></p>
+              <hr>
+
+              <p><em>Sept 2017-Present</em></p>
+              <p>🎹 Senior Piano Accompanist at Bur Oak Music</p>
+            </td>
+          </tr>
+        </table>
+
+
+      <! -- Projects -->
+        <a name="projects"><h1 class="headers">Projects</h1></a>
+        <div class="wrapper">
+            <div class="grid-item">
+              <p class="grid-text">💻  Learning Web Development</p>
+              <div class="content">
+                <p class="hide grid-text-1">This <a class="project-links" href="https://github.com/valerie-m/learning-web-dev">
+repository</a> includes snippets of code and markdown files to show my progress in learning web development. All code snippets are used for <a href="www.eyehopecanada.com">Eye Hope Canada</a>.</p>
+              </div>
+          </div>
+          <div class="grid-item">
+            <p class="grid-text">➗  Data Science With Kaggle</p>
+            <div class="content">
+              <p class="hide grid-text-2">Includes <a class="project-links" href="https://github.com/valerie-m/kaggle">
+Jupyter Notebooks</a> I completed with the help of Kaggle. This is a continuation of my machine learning and data science journey.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p class="grid-text">🤖  Machine Learning</p>
+            <div class="content">
+              <p class="hide grid-text-3">My first <a class="project-links" href="https://github.com/valerie-m/coursera-machine-learning">
+Introduction to Machine Learning</a>. Includes my solutions to programming exercises from Andrew Ng's Machine Learning Coursera Course.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <p class="grid-text">👩‍💻  MATLAB</p>
+            <div class="content">
+              <p class="hide grid-text-4">Currently contains <a class="project-links" href="https://github.com/valerie-m/learning-Matlab">coding exercises</a> completed from the Vanderbilt Intro to Programming with MATLAB Coursera course.</p>
+            </div>
+          </div>
+        </div>
+
+
+      <! -- Blog -->
+        <a name="blog"><h1 class="headers">Blog</h1></a>
+
+
+      <! -- Contact Me -->
+      <div class="contact-me">
+        <a name="contact-me"><h1 class="headers">Connect With Me</h1></a>
+        <p>I'm always interested in meeting new people and having cool conversations!</p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    </div>
+
+    <div class="footer">
+      <p>© 2020 Vanessa Mac.</p>
+    </div>
+
+    <script src="scripts/typeWritingHeader.js"></script>
 
   </body>
 </html>
